@@ -19,14 +19,14 @@ struct ContentView: View {
         NavigationView {
             Form{
                 Section {
-                    TextField("sales", text: $salesText) {
+                    TextField("$ sales", text: $salesText) {
                         
                     }
                     
                     
                 }
                 Section {
-                    TextField("walking tips", text: $walkingTipsText) {
+                    TextField("$ walking tips", text: $walkingTipsText) {
                         
                     }
                 }
@@ -43,9 +43,9 @@ struct ContentView: View {
                 Section{
                     HStack {
                         Spacer()
-                        Text("Tip:Ratio")
+                        Text("Tip:Ratio  -")
                             .font(.headline)
-                        Text("\(tipRatio)")
+                        Text("$ \(tipRatio)")
                         Spacer()
                     }
                 }
