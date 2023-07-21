@@ -12,6 +12,7 @@ struct ContentView: View {
     @Environment(\.managedObjectContext) private var viewContext
     @State private var salesText = ""
     @State private var walkingTipsText = ""
+    @State private var tipRatio = 0.145
     
 
     var body: some View {
@@ -39,9 +40,28 @@ struct ContentView: View {
                     )
                     Spacer()
                 }
+                Section{
+                    HStack {
+                        Spacer()
+                        Text("Tip:Ratio")
+                            .font(.headline)
+                        Text("\(tipRatio)")
+                        Spacer()
+                    }
+                }
                 
             }
             .navigationTitle("Server Sales")
+            .toolbar {
+                        ToolbarItem(placement: .navigationBarTrailing) {
+                            Button {
+                                
+                            } label: {
+                                Image(systemName: "list.bullet")
+                            }
+
+                        }
+                    }
         }
     }
 
@@ -56,3 +76,6 @@ struct ContentView: View {
         }
     }
 }
+
+
+    
