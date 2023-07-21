@@ -30,17 +30,18 @@ struct ContentView: View {
                     }
                 }
                 HStack(alignment: .center) {
-                    
+                    Spacer()
                     Button(
                         action: {
                             // did tap
                         },
                         label: { Text("Submit") }
                     )
-                    
+                    Spacer()
                 }
+                
             }
-            
+            .navigationTitle("Server Sales")
         }
     }
 
