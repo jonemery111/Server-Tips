@@ -43,7 +43,7 @@ struct ContentView: View {
                 Section{
                     HStack {
                         Spacer()
-                        Text("Tip:Ratio  -")
+                        Text("Tip/Ratio  :")
                             .font(.headline)
                         Text("$ \(tipRatio)")
                         Spacer()
