@@ -13,6 +13,7 @@
 		B2DDF3342A6A231C002C8A20 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2DDF3332A6A231C002C8A20 /* ContentView.swift */; };
 		B2DDF3362A6A231D002C8A20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2DDF3352A6A231D002C8A20 /* Assets.xcassets */; };
 		B2DDF33A2A6A231D002C8A20 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2DDF3392A6A231D002C8A20 /* Preview Assets.xcassets */; };
+		EAA80BB12A6A2873001BA855 /* ServerTipsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA80BB02A6A2873001BA855 /* ServerTipsListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		B2DDF3352A6A231D002C8A20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B2DDF3372A6A231D002C8A20 /* Server_Tips.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Server_Tips.entitlements; sourceTree = "<group>"; };
 		B2DDF3392A6A231D002C8A20 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EAA80BB02A6A2873001BA855 /* ServerTipsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerTipsListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				B2DDF32C2A6A231C002C8A20 /* Server_TipsApp.swift */,
 				B2DDF32E2A6A231C002C8A20 /* Persistence.swift */,
 				B2DDF3332A6A231C002C8A20 /* ContentView.swift */,
+				EAA80BB02A6A2873001BA855 /* ServerTipsListView.swift */,
 				B2DDF3352A6A231D002C8A20 /* Assets.xcassets */,
 				B2DDF3372A6A231D002C8A20 /* Server_Tips.entitlements */,
 				B2DDF3302A6A231C002C8A20 /* Server_Tips.xcdatamodeld */,
@@ -145,6 +148,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAA80BB12A6A2873001BA855 /* ServerTipsListView.swift in Sources */,
 				B2DDF3322A6A231C002C8A20 /* Server_Tips.xcdatamodeld in Sources */,
 				B2DDF32D2A6A231C002C8A20 /* Server_TipsApp.swift in Sources */,
 				B2DDF3342A6A231C002C8A20 /* ContentView.swift in Sources */,
@@ -273,7 +277,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Server Tips/Preview Content\"";
-				DEVELOPMENT_TEAM = 884A68J42K;
+				DEVELOPMENT_TEAM = 9C57KKWNGP;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -311,7 +315,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Server Tips/Preview Content\"";
-				DEVELOPMENT_TEAM = 884A68J42K;
+				DEVELOPMENT_TEAM = 9C57KKWNGP;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
