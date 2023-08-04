@@ -12,12 +12,13 @@ struct ContentView: View {
     @Environment(\.managedObjectContext) private var viewContext
     @State private var salesText = ""
     @State private var walkingTipsText = ""
-    @State private var tipRatio = 0.145
+    @State private var tipRatio = 0.1398
     
 
     var body: some View {
         NavigationView {
             Form{
+                //add date here
                 Section {
                     TextField("$ sales", text: $salesText) {
                         
