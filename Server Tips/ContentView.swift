@@ -67,6 +67,12 @@ struct ContentView: View {
     }
 
 
+    private func addItem() {
+        withAnimation {
+            let newItem = EntryObject(context: viewContext)
+            newItem.date = Date()
+        }
+    }
 
 
 
