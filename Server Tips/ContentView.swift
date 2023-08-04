@@ -55,7 +55,8 @@ struct ContentView: View {
             .navigationTitle("Server Sales")
             .toolbar {
                         ToolbarItem(placement: .navigationBarTrailing) {
-                            Button {
+                            NavigationLink {
+                                ServerTipsListView()
                                 
                             } label: {
                                 Image(systemName: "list.bullet")
